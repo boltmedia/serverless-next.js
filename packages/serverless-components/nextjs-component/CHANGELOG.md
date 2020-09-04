@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.17.0-alpha.10](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.9...@sls-next/serverless-component@1.17.0-alpha.10) (2020-09-04)
+
+### Features
+
+- **serverless-component:** allow passing an inline policy ([#575](https://github.com/danielcondemarin/serverless-next.js/issues/575)) ([05ddcc9](https://github.com/danielcondemarin/serverless-next.js/commit/05ddcc98c03e642b8ab9fda3e20334215a8cb017))
+
 # [1.17.0-alpha.9](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.8...@sls-next/serverless-component@1.17.0-alpha.9) (2020-08-31)
 
 **Note:** Version bump only for package @sls-next/serverless-component
