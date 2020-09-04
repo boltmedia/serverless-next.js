@@ -1,7 +1,10 @@
 {
   "name": "serverless-nextjs-monorepo",
-  "version": "1.8.1",
+  "version": "1.8.1-fix-opt-0",
   "description": "Deploy your serverless next applications using the serverless framework",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "index.js",
   "directories": {
     "example": "examples"
@@ -105,6 +108,7 @@
     ]
   },
   "dependencies": {
+    "aws-sdk": "2.728.0",
     "opencollective-postinstall": "^2.0.3"
   },
   "collective": {
