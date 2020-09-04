@@ -5,8 +5,8 @@ const expressifyDynamicRoute = (dynamicRoute: string): string => {
   // replace any catch all group first
   const expressified = dynamicRoute.replace(/\[\.\.\.(.*)]$/, ":$1*");
 
-  // now replace other dynamic route groups
-  return expressified.replace(/\[(.*?)]/g, ":$1");
+  // now replace other dynamic route groups and any optional routes
+  return expressified.replace(/\[(.*?)]/g, ":$1").replace(/::(.*?)/, ":$1");
 };
 
 export default expressifyDynamicRoute;
