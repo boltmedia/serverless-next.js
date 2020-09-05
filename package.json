@@ -1,6 +1,6 @@
 {
-  "name": "serverless-nextjs-monorepo",
-  "version": "1.8.1-fix-opt-0",
+  "name": "@boltmedia/serverless-nextjs-monorepo",
+  "version": "1.8.1-fix-opt-1",
   "description": "Deploy your serverless next applications using the serverless framework",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -32,14 +32,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielcondemarin/serverless-next.js"
+    "url": "https://github.com/boltmedia/serverless-next.js"
   },
-  "author": "Daniel Conde Marin <danielconde9@gmail.com>",
+  "author": "Tim <boltmedia@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danielcondemarin/serverless-next.js/issues"
+    "url": "https://github.com/boltmedia/serverless-next.js/issues"
   },
-  "homepage": "https://github.com/danielcondemarin/serverless-next.js#readme",
+  "homepage": "https://github.com/boltmedia/serverless-next.js#readme",
   "devDependencies": {
     "@babel/preset-typescript": "^7.10.4",
     "@sls-next/lambda-at-edge": "link:./packages/libs/lambda-at-edge",
