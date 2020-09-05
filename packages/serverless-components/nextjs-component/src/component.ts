@@ -1,15 +1,15 @@
 import { Component } from "@serverless/core";
 import { readJSON, pathExists } from "fs-extra";
 import { resolve, join } from "path";
-import { Builder } from "@sls-next/lambda-at-edge";
+import { Builder } from "@contentco/lambda-at-edge";
 import {
   OriginRequestDefaultHandlerManifest as BuildManifest,
   OriginRequestDefaultHandlerManifest,
   OriginRequestApiHandlerManifest,
   RoutesManifest
-} from "@sls-next/lambda-at-edge/types";
-import uploadAssetsToS3 from "@sls-next/s3-static-assets";
-import createInvalidation from "@sls-next/cloudfront";
+} from "@contentco/lambda-at-edge/types";
+import uploadAssetsToS3 from "@contentco/s3-static-assets";
+import createInvalidation from "@contentco/cloudfront";
 import obtainDomains from "./lib/obtainDomains";
 import { DEFAULT_LAMBDA_CODE_DIR, API_LAMBDA_CODE_DIR } from "./constants";
 import type {
@@ -230,9 +230,9 @@ class NextjsComponent extends Component {
       apiEdgeLambda
     ] = await Promise.all([
       this.load("@serverless/aws-s3"),
-      this.load("@sls-next/aws-cloudfront"),
-      this.load("@sls-next/aws-lambda", "defaultEdgeLambda"),
-      this.load("@sls-next/aws-lambda", "apiEdgeLambda")
+      this.load("@contentco/aws-cloudfront"),
+      this.load("@contentco/aws-lambda", "defaultEdgeLambda"),
+      this.load("@contentco/aws-lambda", "apiEdgeLambda")
     ]);
 
     const bucketOutputs = await bucket({
@@ -529,7 +529,7 @@ class NextjsComponent extends Component {
 
     const { domain, subdomain } = obtainDomains(inputs.domain);
     if (domain && subdomain) {
-      const domainComponent = await this.load("@sls-next/domain");
+      const domainComponent = await this.load("@contentco/domain");
       const domainOutputs = await domainComponent({
         privateZone: false,
         domain,
@@ -551,8 +551,8 @@ class NextjsComponent extends Component {
   async remove(): Promise<void> {
     const [bucket, cloudfront, domain] = await Promise.all([
       this.load("@serverless/aws-s3"),
-      this.load("@sls-next/aws-cloudfront"),
-      this.load("@sls-next/domain")
+      this.load("@contentco/aws-cloudfront"),
+      this.load("@contentco/domain")
     ]);
 
     await Promise.all([bucket.remove(), cloudfront.remove(), domain.remove()]);

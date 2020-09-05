@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.4](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/lambda-at-edge@1.6.2...@contentco/lambda-at-edge@1.6.4) (2020-09-05)
+
+**Note:** Version bump only for package @contentco/lambda-at-edge
+
 ## [1.6.2](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/lambda-at-edge@1.6.1...@contentco/lambda-at-edge@1.6.2) (2020-09-05)
 
 **Note:** Version bump only for package @contentco/lambda-at-edge

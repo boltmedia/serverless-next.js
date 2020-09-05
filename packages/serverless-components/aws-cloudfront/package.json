@@ -1,6 +1,6 @@
 {
   "name": "@contentco/aws-cloudfront",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "main": "./serverless.js",
   "publishConfig": {
     "access": "public"
@@ -31,5 +31,6 @@
   "description": "This package was copied from https://github.com/serverless-components/aws-cloudfront because it wasn't being maintained anymore. It is being used by the [nextjs serverless component](https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/serverless-component) to provision the CloudFront distribution behind the scenes.",
   "directories": {
     "lib": "lib"
-  }
+  },
+  "gitHead": "91b2c43f28ebab59137127d3f3999677a67d1de7"
 }

@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "2.6.5",
+  "version": "2.6.6",
   "description": "A serverless plugin for nextjs 8 serverless target",
   "main": "index.js",
   "keywords": [
@@ -24,7 +24,7 @@
     "directory": "packages/serverless-plugin"
   },
   "dependencies": {
-    "@contentco/next-aws-lambda": "^2.6.4",
+    "@contentco/next-aws-lambda": "^2.6.5",
     "@mapbox/s3urls": "^1.5.3",
     "chalk": "^2.4.2",
     "debug": "^4.1.1",
@@ -38,5 +38,5 @@
   "engines": {
     "node": ">=8.5.0"
   },
-  "gitHead": "54270da8eb6c180748b71636dd06317ce514e6c9"
+  "gitHead": "91b2c43f28ebab59137127d3f3999677a67d1de7"
 }

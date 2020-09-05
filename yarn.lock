@@ -1100,6 +1100,14 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@contentco/lambda-at-edge@link:./packages/libs/lambda-at-edge":
+  version "0.0.0"
+  uid ""
+
+"@contentco/next-aws-cloudfront@link:./packages/compat-layers/lambda-at-edge-compat":
+  version "0.0.0"
+  uid ""
+
 "@evocateur/libnpmaccess@^3.1.2":
   version "3.1.2"
   resolved "https://registry.npmjs.org/@evocateur/libnpmaccess/-/libnpmaccess-3.1.2.tgz#ecf7f6ce6b004e9f942b098d92200be4a4b1c845"
@@ -2836,14 +2844,6 @@
   integrity sha512-MZPUxrmFubI36XS1DI3qmI0YdN1gks62JtFZvxR67ljjSNCeK6U08Zx4msEWOXuofgqUt6zPHSi1H9fbjR/NRA==
   dependencies:
     "@sinonjs/commons" "^1.7.0"
-
-"@sls-next/lambda-at-edge@link:./packages/libs/lambda-at-edge":
-  version "0.0.0"
-  uid ""
-
-"@sls-next/next-aws-cloudfront@link:./packages/compat-layers/lambda-at-edge-compat":
-  version "0.0.0"
-  uid ""
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"

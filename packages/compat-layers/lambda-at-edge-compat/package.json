@@ -1,6 +1,6 @@
 {
   "name": "@contentco/next-aws-cloudfront",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "publishConfig": {
     "access": "public"
   },
@@ -29,5 +29,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "gitHead": "91b2c43f28ebab59137127d3f3999677a67d1de7"
 }
