@@ -1,6 +1,6 @@
 {
   "name": "@contentco/cloudfront",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Handles CloudFront invalidation",
   "publishConfig": {
     "access": "public"
@@ -8,7 +8,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "directories": {
-    "dist": "dist"
+    "test": "tests"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,5 @@
   "devDependencies": {
     "@types/node": "^14.0.27",
     "typescript": "^3.9.7"
-  },
-  "gitHead": "701db0694e794348200a0138c3cb7bf68c409d71"
+  }
 }

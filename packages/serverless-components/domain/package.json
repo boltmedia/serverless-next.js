@@ -1,6 +1,6 @@
 {
   "name": "@contentco/domain",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "serverless.js",
   "publishConfig": {
     "access": "public"
@@ -21,5 +21,8 @@
     "@serverless/core": "^1.1.2",
     "aws-sdk": "^2.702.0"
   },
-  "gitHead": "701db0694e794348200a0138c3cb7bf68c409d71"
+  "description": "Easily provision custom domains for:",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

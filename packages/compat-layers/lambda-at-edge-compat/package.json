@@ -1,6 +1,6 @@
 {
   "name": "@contentco/next-aws-cloudfront",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "publishConfig": {
     "access": "public"
   },
@@ -27,5 +27,7 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.50"
   },
-  "gitHead": "701db0694e794348200a0138c3cb7bf68c409d71"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
