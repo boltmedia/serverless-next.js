@@ -1,6 +1,6 @@
 {
-  "name": "@sls-next/domain",
-  "version": "1.0.2-alpha.0",
+  "name": "@contentco/domain",
+  "version": "1.0.2",
   "main": "serverless.js",
   "publishConfig": {
     "access": "public"

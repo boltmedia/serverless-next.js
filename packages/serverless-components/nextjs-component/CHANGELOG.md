@@ -3,102 +3,110 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.17.0-alpha.10](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.9...@sls-next/serverless-component@1.17.0-alpha.10) (2020-09-04)
+# 1.17.0 (2020-09-05)
+
+### Features
+
+- **lambda-at-edge:** add opt in lambda execution times logging ([#549](https://github.com/danielcondemarin/serverless-next.js/issues/549)) ([066bd27](https://github.com/danielcondemarin/serverless-next.js/commit/066bd270ce8b8f915298b7bac51c2aeb3ab27126))
+- **serverless-component:** allow passing an inline policy ([#575](https://github.com/danielcondemarin/serverless-next.js/issues/575)) ([05ddcc9](https://github.com/danielcondemarin/serverless-next.js/commit/05ddcc98c03e642b8ab9fda3e20334215a8cb017))
+- **serverless-component, lambda-at-edge, lambda-at-edge-compat, s3-static-assets:** add support for getStaticPaths fallback true ([#544](https://github.com/danielcondemarin/serverless-next.js/issues/544)) ([a08217b](https://github.com/danielcondemarin/serverless-next.js/commit/a08217ba26ea90f67c562fe4ae9510b617d14d08))
+
+# [1.17.0-alpha.10](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.17.0-alpha.9...@contentco/serverless-component@1.17.0-alpha.10) (2020-09-04)
 
 ### Features
 
 - **serverless-component:** allow passing an inline policy ([#575](https://github.com/danielcondemarin/serverless-next.js/issues/575)) ([05ddcc9](https://github.com/danielcondemarin/serverless-next.js/commit/05ddcc98c03e642b8ab9fda3e20334215a8cb017))
 
-# [1.17.0-alpha.9](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.8...@sls-next/serverless-component@1.17.0-alpha.9) (2020-08-31)
+# [1.17.0-alpha.9](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.17.0-alpha.8...@contentco/serverless-component@1.17.0-alpha.9) (2020-08-31)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.17.0-alpha.8](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.7...@sls-next/serverless-component@1.17.0-alpha.8) (2020-08-29)
+# [1.17.0-alpha.8](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.17.0-alpha.7...@contentco/serverless-component@1.17.0-alpha.8) (2020-08-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.17.0-alpha.7](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.6...@sls-next/serverless-component@1.17.0-alpha.7) (2020-08-27)
+# [1.17.0-alpha.7](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.17.0-alpha.6...@contentco/serverless-component@1.17.0-alpha.7) (2020-08-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.17.0-alpha.6](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.5...@sls-next/serverless-component@1.17.0-alpha.6) (2020-08-19)
+# [1.17.0-alpha.6](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.17.0-alpha.5...@contentco/serverless-component@1.17.0-alpha.6) (2020-08-19)
 
 ### Features
 
 - **lambda-at-edge:** add opt in lambda execution times logging ([#549](https://github.com/danielcondemarin/serverless-next.js/issues/549)) ([066bd27](https://github.com/danielcondemarin/serverless-next.js/commit/066bd270ce8b8f915298b7bac51c2aeb3ab27126))
 
-# [1.17.0-alpha.5](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.4...@sls-next/serverless-component@1.17.0-alpha.5) (2020-08-14)
+# [1.17.0-alpha.5](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.17.0-alpha.4...@contentco/serverless-component@1.17.0-alpha.5) (2020-08-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.17.0-alpha.4](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.3...@sls-next/serverless-component@1.17.0-alpha.4) (2020-08-14)
+# [1.17.0-alpha.4](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.17.0-alpha.3...@contentco/serverless-component@1.17.0-alpha.4) (2020-08-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.17.0-alpha.3](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.2...@sls-next/serverless-component@1.17.0-alpha.3) (2020-08-14)
+# [1.17.0-alpha.3](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.17.0-alpha.2...@contentco/serverless-component@1.17.0-alpha.3) (2020-08-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.17.0-alpha.2](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.1...@sls-next/serverless-component@1.17.0-alpha.2) (2020-08-14)
+# [1.17.0-alpha.2](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.17.0-alpha.1...@contentco/serverless-component@1.17.0-alpha.2) (2020-08-14)
 
 ### Features
 
 - **serverless-component, lambda-at-edge, lambda-at-edge-compat, s3-static-assets:** add support for getStaticPaths fallback true ([#544](https://github.com/danielcondemarin/serverless-next.js/issues/544)) ([a08217b](https://github.com/danielcondemarin/serverless-next.js/commit/a08217ba26ea90f67c562fe4ae9510b617d14d08))
 
-# [1.17.0-alpha.1](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.0...@sls-next/serverless-component@1.17.0-alpha.1) (2020-08-09)
+# [1.17.0-alpha.1](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.17.0-alpha.0...@contentco/serverless-component@1.17.0-alpha.1) (2020-08-09)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.17.0-alpha.0](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.16.0...@sls-next/serverless-component@1.17.0-alpha.0) (2020-08-06)
+# [1.17.0-alpha.0](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.16.0...@contentco/serverless-component@1.17.0-alpha.0) (2020-08-06)
 
 ### Features
 
 - **lambda-at-edge,serverless-component:** basePath support ([#510](https://github.com/danielcondemarin/serverless-next.js/issues/510)) ([b17ce30](https://github.com/danielcondemarin/serverless-next.js/commit/b17ce30b1f18f994f1d2e9ebfe833a74aae6676b))
 
-# [1.16.0](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.16.0-alpha.1...@sls-next/serverless-component@1.16.0) (2020-08-01)
+# [1.16.0](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.16.0-alpha.1...@contentco/serverless-component@1.16.0) (2020-08-01)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.16.0-alpha.1](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.16.0-alpha.0...@sls-next/serverless-component@1.16.0-alpha.1) (2020-07-30)
+# [1.16.0-alpha.1](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.16.0-alpha.0...@contentco/serverless-component@1.16.0-alpha.1) (2020-07-30)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.16.0-alpha.0](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.15.2-alpha.1...@sls-next/serverless-component@1.16.0-alpha.0) (2020-07-20)
+# [1.16.0-alpha.0](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.15.2-alpha.1...@contentco/serverless-component@1.16.0-alpha.0) (2020-07-20)
 
 ### Features
 
 - **serverless-component:** allow CloudFront PriceClass to be set ([#515](https://github.com/danielcondemarin/serverless-next.js/issues/515)) ([943958a](https://github.com/danielcondemarin/serverless-next.js/commit/943958a823d602db35ca2b789e6d8b455ef5f499))
 
-## [1.15.2-alpha.1](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.15.2-alpha.0...@sls-next/serverless-component@1.15.2-alpha.1) (2020-07-14)
+## [1.15.2-alpha.1](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.15.2-alpha.0...@contentco/serverless-component@1.15.2-alpha.1) (2020-07-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-## [1.15.2-alpha.0](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.15.1...@sls-next/serverless-component@1.15.2-alpha.0) (2020-07-13)
+## [1.15.2-alpha.0](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.15.1...@contentco/serverless-component@1.15.2-alpha.0) (2020-07-13)
 
 ### Bug Fixes
 
 - **serverless-component:** fix "main" package.json property ([96d510d](https://github.com/danielcondemarin/serverless-next.js/commit/96d510d3e21f6fe84c02425f2c8c6f311b90665f))
 - **serverless-component:** fixes 307 errors when using bucket region outside us-east-1 ([#495](https://github.com/danielcondemarin/serverless-next.js/issues/495)) ([561e05f](https://github.com/danielcondemarin/serverless-next.js/commit/561e05f9ba9763fab4185b34adcde61dfcbb0a21))
 
-## [1.15.1](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.15.0...@sls-next/serverless-component@1.15.1) (2020-07-11)
+## [1.15.1](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.15.0...@contentco/serverless-component@1.15.1) (2020-07-11)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.15.0](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.15.0-alpha.5...@sls-next/serverless-component@1.15.0) (2020-07-11)
+# [1.15.0](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.15.0-alpha.5...@contentco/serverless-component@1.15.0) (2020-07-11)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.15.0-alpha.5](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.15.0-alpha.4...@sls-next/serverless-component@1.15.0-alpha.5) (2020-07-05)
+# [1.15.0-alpha.5](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.15.0-alpha.4...@contentco/serverless-component@1.15.0-alpha.5) (2020-07-05)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.15.0-alpha.4](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.15.0-alpha.3...@sls-next/serverless-component@1.15.0-alpha.4) (2020-06-30)
+# [1.15.0-alpha.4](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.15.0-alpha.3...@contentco/serverless-component@1.15.0-alpha.4) (2020-06-30)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
-# [1.15.0-alpha.3](https://github.com/danielcondemarin/serverless-next.js/compare/@sls-next/serverless-component@1.15.0-alpha.2...@sls-next/serverless-component@1.15.0-alpha.3) (2020-06-29)
+# [1.15.0-alpha.3](https://github.com/danielcondemarin/serverless-next.js/compare/@contentco/serverless-component@1.15.0-alpha.2...@contentco/serverless-component@1.15.0-alpha.3) (2020-06-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @contentco/serverless-component
 
 # 1.15.0-alpha.2 (2020-06-29)
 
