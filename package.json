@@ -1,10 +1,7 @@
 {
-  "name": "@boltmedia/serverless-nextjs-monorepo",
-  "version": "1.8.1-fix-opt-1",
+  "name": "@contentco/serverless-nextjs-monorepo",
+  "version": "1.8.3",
   "description": "Deploy your serverless next applications using the serverless framework",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "main": "index.js",
   "directories": {
     "example": "examples"
@@ -32,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/boltmedia/serverless-next.js"
+    "url": "git+https://github.com/boltmedia/serverless-next.js.git"
   },
   "author": "Tim <boltmedia@gmail.com>",
   "license": "MIT",
@@ -42,8 +39,8 @@
   "homepage": "https://github.com/boltmedia/serverless-next.js#readme",
   "devDependencies": {
     "@babel/preset-typescript": "^7.10.4",
-    "@sls-next/lambda-at-edge": "link:./packages/libs/lambda-at-edge",
-    "@sls-next/next-aws-cloudfront": "link:./packages/compat-layers/lambda-at-edge-compat",
+    "@contentco/lambda-at-edge": "link:./packages/libs/lambda-at-edge",
+    "@contentco/next-aws-cloudfront": "link:./packages/compat-layers/lambda-at-edge-compat",
     "@types/fs-extra": "^9.0.1",
     "@types/jest": "^26.0.3",
     "@types/react": "^16.9.41",
