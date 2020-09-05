@@ -19,7 +19,7 @@ const generateConfig = (filename) => ({
   plugins: [
     commonjs(),
     externals({
-      exclude: "@sls-next/next-aws-cloudfront"
+      exclude: "@contentco/next-aws-cloudfront"
     }),
     nodeResolve(),
     typescript({
