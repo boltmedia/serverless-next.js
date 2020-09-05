@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Provides handlers that can be used in CloudFront Lambda@Edge to deploy next.js applications to the edge",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -53,5 +53,6 @@
     "execa": "^4.0.2",
     "fs-extra": "^9.0.1",
     "jsonwebtoken": "^8.5.1"
-  }
+  },
+  "gitHead": "701db0694e794348200a0138c3cb7bf68c409d71"
 }
